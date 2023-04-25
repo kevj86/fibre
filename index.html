@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Fibre Guide</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0090a8f80c.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h2>fibre guide<span class="accent">.</span></h2>
+      </header>
+      <main>
+        <div class="colour-codes">
+          <button class="btn btn-colour">fibre colour codes</button>
+        </div>
+        <div class="item-codes">
+          <h3>item codes <span class="accent">.</span></h3>
+          <div class="item-nav">
+            <div class="btn-row">
+              <button class="btn" data-button="ethernet">ethernet</button>
+              <button class="btn" data-button="newsites">newsites</button>
+            </div>
+            <div class="btn-row">
+              <button class="btn" data-button="exchange">exchange</button>
+              <button class="btn" data-button="overhead">overhead</button>
+            </div>
+            <div class="btn-row">
+              <button class="btn" data-button="nodes">nodes</button>
+              <button class="btn" data-button="consumables">consumables</button>
+            </div>
+            <div class="btn-row">
+              <button class="btn" data-button="tools">tools</button>
+              <button class="btn" data-button="misc">misc.</button>
+            </div>
+          </div>
+        </div>
+        <h3 id="store-header"></h3>
+        <div class="display-results" id="display-results">
+          <!-- stores will be rendered here -->
+        </div>
+      </main>
+  </body>
+  <script src="/app.js" type="module"></script>
+</html>
