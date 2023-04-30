@@ -36,5 +36,12 @@ function handleClick(arrays) {
 }
 
 function handleCopyCode(itemcode) {
-  navigator.clipboard.writeText(itemcode);
+  navigator.clipboard
+    .writeText(itemcode)
+    .then(() => {
+      alert("successfully copied");
+    })
+    .catch(() => {
+      alert("something went wrong");
+    });
 }
