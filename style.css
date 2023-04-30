@@ -129,4 +129,8 @@ main h3 {
   .btn-row {
     gap: 0.25em;
   }
+
+  .item {
+    font-size: 0.75em;
+  }
 }
