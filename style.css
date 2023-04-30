@@ -121,4 +121,12 @@ main h3 {
   .wrapper {
     max-width: 350px;
   }
+
+  .btn {
+    font-size: 0.75rem;
+  }
+
+  .btn-row button {
+    width: 175px;
+  }
 }
