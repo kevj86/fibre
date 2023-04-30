@@ -126,7 +126,7 @@ main h3 {
     font-size: 0.75rem;
   }
 
-  .btn-row button {
-    width: 175px;
+  .btn-row {
+    gap: 5px;
   }
 }
