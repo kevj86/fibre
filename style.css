@@ -119,7 +119,7 @@ main h3 {
 
 @media (max-width: 400px) {
   .wrapper {
-    max-width: 350px;
+    max-width: 375px;
   }
 
   .btn {
