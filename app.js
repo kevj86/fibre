@@ -24,7 +24,6 @@ function handleClick(arrays) {
   arrays.forEach(function (store) {
     displayHtml += `
           <div class="item">
-            <div class="store-desc">${store.itemcode}</div>
             <div class="store-item">${store.item}</div>
             <div class="copy-btn" id="copy"><i class="fa-solid fa-copy" data-copycat="${store.itemcode}"></i></div>
           </div>
@@ -39,9 +38,9 @@ function handleCopyCode(itemcode) {
   navigator.clipboard
     .writeText(itemcode)
     .then(() => {
-      alert("successfully copied");
+      console.log("successfully copied");
     })
     .catch(() => {
-      alert("something went wrong");
+      console.log("something went wrong");
     });
 }
