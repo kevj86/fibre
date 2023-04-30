@@ -2,8 +2,10 @@ import { stores } from "/data.js";
 
 document.addEventListener("click", function (e) {
   if (e.target.dataset.button) {
-    console.log(e.target.dataset.button);
     filterResult(e.target.dataset.button);
+  } else if (e.target.dataset.copycat) {
+    handleCopyCode(e.target.dataset.copycat);
+    console.log(e.target.dataset.copycat);
   }
 });
 
@@ -24,11 +26,15 @@ function handleClick(arrays) {
           <div class="item">
             <div class="store-desc">${store.itemcode}</div>
             <div class="store-item">${store.item}</div>
-            <div class="copy-btn" id="copy"><i class="fa-solid fa-copy"></i></div>
+            <div class="copy-btn" id="copy"><i class="fa-solid fa-copy" data-copycat="${store.itemcode}"></i></div>
           </div>
         `;
   });
 
   document.getElementById("display-results").innerHTML = displayHtml;
   document.getElementById("store-header").innerHTML = arrays[0].type;
+}
+
+function handleCopyCode(itemcode) {
+  navigator.clipboard.writeText(itemcode);
 }

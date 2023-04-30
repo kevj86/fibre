@@ -116,3 +116,9 @@ main h3 {
 .store-desc {
   width: 15%;
 }
+
+@media (max-width: 400px) {
+  .wrapper {
+    width: 400px;
+  }
+}
