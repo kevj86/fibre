@@ -127,6 +127,6 @@ main h3 {
   }
 
   .btn-row {
-    gap: 5px;
+    gap: 0.25em;
   }
 }
