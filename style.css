@@ -148,6 +148,13 @@ main h3 {
   color: black;
 }
 
+/* CSS */
+
+.css-item {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width: 400px) {
   .wrapper {
     max-width: 375px;
@@ -165,7 +172,8 @@ main h3 {
     font-size: 0.8em;
   }
 
-  .nav li a {
+  .nav li a,
+  .css-item {
     font-size: 15px;
   }
 }
