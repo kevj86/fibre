@@ -16,7 +16,7 @@
 }
 
 .wrapper {
-  padding: 1em;
+  padding: 0em;
   width: 450px;
   margin: 0 auto;
 }
@@ -115,6 +115,37 @@ main h3 {
 
 .store-desc {
   width: 15%;
+}
+
+/* NAVIGATION */
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  list-style: none;
+  padding-bottom: 2em;
+}
+
+.nav li a {
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav li a:hover {
+  border-bottom: 3px solid var(--clr-green);
+}
+
+.activenav {
+  border-bottom: 3px solid var(--clr-green);
+}
+
+/* MODAL */
+
+.modal {
+  background: pink;
+  color: black;
 }
 
 @media (max-width: 400px) {
