@@ -16,7 +16,7 @@
 }
 
 .wrapper {
-  padding: 0em;
+  padding: 0.25em;
   width: 450px;
   margin: 0 auto;
 }
@@ -163,5 +163,9 @@ main h3 {
 
   .item {
     font-size: 0.8em;
+  }
+
+  .nav li {
+    font-size: 15px;
   }
 }
