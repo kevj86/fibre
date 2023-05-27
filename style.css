@@ -136,7 +136,7 @@ nav ul li a {
 .fibre-number h2,
 .fibre-element h2 {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2rem;
 
   border-bottom: 3px solid #fdfdfd;
   margin-bottom: 0.5em;
@@ -165,7 +165,7 @@ nav ul li a {
 
 #display-fibre,
 #display-element {
-  height: 25vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   padding: 1em 0;
