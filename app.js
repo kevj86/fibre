@@ -29,7 +29,7 @@ const selectStoreType = `
 
 let selected = "";
 
-if (window.location.href === "http://kjfibre.netlify.app/stores.html") {
+if (window.location.href === "https://kjfibre.netlify.app/stores.html") {
   onValue(itemCodes, function (snapshot) {
     selected = document.getElementById("display-items").options[document.getElementById("display-items").selectedIndex].getAttribute("data-button");
     console.log(selected);
