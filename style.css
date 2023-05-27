@@ -93,8 +93,8 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1em;
-  margin-bottom: 1.5em;
+  gap: 0.5em;
+  margin-bottom: 1em;
 }
 
 .element-selector p {
