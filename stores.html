@@ -22,31 +22,25 @@
       <h1>Fibre Dashboard</h1>
       <nav>
         <ul>
-          <li id="btn-fibrecolour" class="active-link"><a href="/index.html">Fibre Colours</a></li>
-          <li id="btn-itemcode"><a href="/stores.html">Item Codes</a></li>
+          <li id="btn-fibrecolour"><a href="/index.html">Fibre Colours</a></li>
+          <li id="btn-itemcode" class="active-link"><a href="#">Item Codes</a></li>
           <li id="btn-useful"><a href="#">Useful Info</a></li>
           <li id="btn-css"><a href="#">CSS</a></li>
         </ul>
       </nav>
       <main>
-        <div class="element-selector">
-          <p>select element size</p>
-          <div class="selector-buttons">
-            <button class="btn" id="12f">12F</button>
-            <button class="btn" id="8f">8F</button>
-          </div>
-        </div>
-        <div class="fibre-number">
-          <h2>fibre by number<span class="accent">.</span></h2>
-          <input type="number" placeholder="Enter Fibre Number" id="fibre-number" pattern="\d*" />
-          <div id="display-fibre"></div>
-        </div>
-        <div class="fibre-element">
-          <h2>fibre by element<span class="accent">.</span></h2>
-          <input type="number" placeholder="Enter Element Number" id="fibre-element" pattern="\d*" />
-          <div id="display-element"></div>
-        </div>
-        <button id="reset">RESET</button>
+        <select name="display-items" id="display-items">
+          <option value="ethernet" data-button="ethernet">Ethernet</option>
+          <option value="newsite" data-button="newsite">Newsite</option>
+          <option value="exchange" data-button="exchange">Exchange</option>
+          <option value="overhead" data-button="overhead">Overhead</option>
+          <option value="nodes" data-button="nodes">Nodes</option>
+          <option value="blownfibre" data-button="blownfibre">Blown Fibre</option>
+          <option value="consumables" data-button="consumables">Consumables</option>
+          <option value="tools" data-button="tools">Tools</option>
+          <option value="misc" data-button="misc">Misc</option>
+        </select>
+        <div class="display-results" id="display-results"></div>
       </main>
     </div>
     <script src="app.js" type="module"></script>
