@@ -299,3 +299,27 @@ nav ul li a {
     width: 375px;
   }
 }
+
+/* SFPs */
+
+.wrapper-row {
+  font-size: 14px;
+  display: flex;
+  gap: 1em;
+  padding-block: 5px;
+}
+
+.wrapper-column {
+  width: 100px;
+  color: #fff;
+}
+
+.wrapper-header {
+  color: #9b9ca0;
+  text-decoration: underline;
+}
+
+.sfp-header {
+  text-align: center;
+  text-decoration: underline;
+}

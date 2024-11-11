@@ -23,24 +23,22 @@
       <nav>
         <ul>
           <li id="btn-fibrecolour"><a href="/index.html">Fibre Colours</a></li>
-          <li id="btn-itemcode" class="active-link"><a href="#">Item Codes</a></li>
-          <li id="btn-useful"><a href="/sfp.html">SFP's</a></li>
+          <li id="btn-itemcode"><a href="/stores.html">Item Codes</a></li>
+          <li id="btn-sfp" class="active-link"><a href="#">SFP's</a></li>
           <li id="btn-css"><a href="#">CSS</a></li>
         </ul>
       </nav>
       <main>
-        <select name="display-items" id="display-items">
-          <option value="ethernet" data-button="ethernet">Ethernet</option>
-          <option value="newsite" data-button="newsite">Newsite</option>
-          <option value="exchange" data-button="exchange">Exchange</option>
-          <option value="overhead" data-button="overhead">Overhead</option>
-          <option value="nodes" data-button="nodes">Nodes</option>
-          <option value="blownfibre" data-button="blownfibre">Blown Fibre</option>
-          <option value="consumables" data-button="consumables">Consumables</option>
-          <option value="tools" data-button="tools">Tools</option>
-          <option value="misc" data-button="misc">Misc</option>
-        </select>
-        <div class="display-results" id="display-results"></div>
+        <h2 class="sfp-header">SFP's</h2>
+        <div class="wrapper">
+          <div class="wrapper-row">
+            <div class="wrapper-column wrapper-header">SFP Code</div>
+            <div class="wrapper-column wrapper-header">Part #</div>
+            <div class="wrapper-column wrapper-header">Max Dist</div>
+            <div class="wrapper-column wrapper-header">Latch Colour</div>
+          </div>
+          <div class="display-sfp"></div>
+        </div>
       </main>
     </div>
     <script src="app.js" type="module"></script>
