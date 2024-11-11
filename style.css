@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 375px;
+  width: fit-content;
   background: #0f0f0f;
   color: #9b9ca0;
   margin: 0 auto;
