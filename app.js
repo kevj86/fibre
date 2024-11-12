@@ -239,14 +239,14 @@ const SFP = [
     SFPName: "SFP-05",
     PartNumb: "0061003014",
     Speed: "Gig",
-    Distance: "10km",
+    Distance: "16km",
     LatchColour: "Blue",
   },
   {
     SFPName: "SFP-06",
     PartNumb: "0061003015",
     Speed: "Gig",
-    Distance: "10km",
+    Distance: "16km",
     LatchColour: "Purple",
   },
   {
